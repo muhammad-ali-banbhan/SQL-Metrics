@@ -21,7 +21,7 @@
 --   MODIFY a column's datatype or constraint
 --   RENAME a column
 --
--- Today's focus: ADD COLUMN at a specific position
+--  focus: ADD COLUMN at a specific position
 -- ============================================================
 
 
@@ -52,7 +52,7 @@
 -- ============================================================
 
 
-USE customer_management;
+USE sql_learning;
 
 
 -- ============================================================

@@ -132,17 +132,6 @@ SELECT
     created_at
 FROM customers;
 
--- Expected Output:
--- +----+--------------+-------------+---------------------+--------+---------------+----------------+
--- | id | name         | phone       | email               | gender | date_of_birth | account_status |
--- +----+--------------+-------------+---------------------+--------+---------------+----------------+
--- |  1 | Ahmed Khan   | 03001234567 | ahmed@shopease.com  | male   | 1995-03-15    | Active         |
--- |  2 | Sara Ali     | 03121234567 | sara@shopease.com   | female | 1998-07-22    | Active         |
--- |  3 | Usman Raza   | 03451234567 | usman@shopease.com  | male   | 1990-11-05    | Active         |
--- |  4 | Fatima Malik | 03331234567 | fatima@shopease.com | female | 1993-05-18    | Inactive       |
--- |  5 | Ali Hassan   | 03211234567 | ali@shopease.com    | male   | 2000-01-30    | Active         |
--- +----+--------------+-------------+---------------------+--------+---------------+----------------+
-
 
 -- ============================================================
 -- TASK 7: FILTER ACTIVE CUSTOMERS ONLY
@@ -192,12 +181,6 @@ SELECT
     SUM(CASE WHEN is_active = 0 THEN 1 ELSE 0 END) AS inactive_customers
 FROM customers;
 
--- Expected Output:
--- +-----------------+-----------------+--------------------+
--- | total_customers | active_customers | inactive_customers |
--- +-----------------+-----------------+--------------------+
--- |               5 |               4 |                  1 |
--- +-----------------+-----------------+--------------------+
 
 
 -- ============================================================

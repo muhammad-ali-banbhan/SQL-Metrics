@@ -96,13 +96,6 @@ USE sql_learning;
 
 SELECT DATABASE();
 
--- Expected Output:
--- +--------------+
--- | DATABASE()   |
--- +--------------+
--- | sql_learning |
--- +--------------+
-
 
 -- ============================================================
 -- STEP 5: VERIFY DATABASE WAS CREATED
