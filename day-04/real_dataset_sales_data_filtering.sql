@@ -172,7 +172,7 @@ WHERE segment = 'Consumer'
 -- Orders by specific salesman
 SELECT
     customer_name,
-    salesman,
+    salesman,gh
     product,
     net_sales
 FROM sales_data
